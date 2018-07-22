@@ -18,6 +18,13 @@ $config['base_url']	= 'http://my.isalesmate.com/';
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $config['base_url'] = 'http://localhost:8083/CodeIgniter';
 }
+if ($_SERVER['SERVER_NAME'] == 'dev.isalesmate.com') {
+    $config['base_url'] = 'http://dev.isalesmate.com/';
+}
+if ($_SERVER['SERVER_NAME'] == 'isalesma.herokuapp.com') {
+    $config['base_url'] = 'https://isalesma.herokuapp.com/';
+}
+
 /*
 |--------------------------------------------------------------------------
 | Index File
