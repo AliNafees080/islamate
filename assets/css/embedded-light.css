@@ -1,0 +1,115 @@
+
+body {
+    background: none repeat scroll 0 0 #f9f9f9;
+    font-family: Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+body, ul, ol, li, p, pre, div, a {
+    color: #525252;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+a {
+    outline: medium none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#wrapper {
+    border: 1px solid #c6cacd;
+    height: 100%;
+    position: relative;
+}
+#head {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #c6cacd;
+    box-shadow: 0 1px 4px rgba(49, 49, 64, 0.1);
+    height: 35px;
+    left: 1px;
+    overflow: hidden;
+    position: fixed;
+    right: 1px;
+    top: 1px;
+    z-index: 100;
+}
+#head h1 {
+    float: right;
+    height: 35px;
+    margin: 0 0 0 10px;
+}
+#head h1 a {
+    background: url("/img/embeddable/logo.png") no-repeat scroll 100% 50% rgba(0, 0, 0, 0);
+    color: #c6cacd;
+    display: block;
+    font-size: 0.8em;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 15px;
+    padding-right: 35px;
+}
+#actions {
+    float: left;
+}
+#actions select {
+    display: none;
+    margin: 8px 10px;
+}
+#actions ul {
+    display: block;
+}
+#actions li {
+    float: left;
+    height: 35px;
+}
+#actions li a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+}
+#actions li.active a {
+    font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+#actions select {
+    display: block;
+}
+#actions ul {
+    display: none;
+}
+}
+#tabs {
+    height: 100%;
+    overflow: auto;
+    position: relative;
+}
+#tabs .tCont {
+    display: none;
+    margin: 0;
+    padding: 45px 15px 10px;
+}
+#tabs .active {
+    display: block;
+}
+#tabs pre {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 0.95em;
+}
+#tabs #resources a {
+    font-size: 1em;
+}
+#tabs #result.tCont {
+    padding: 36px 0 0;
+}
+#result iframe {
+    border: medium none;
+    display: block;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}

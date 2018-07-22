@@ -1,0 +1,35 @@
+INSERT INTO `showpad_user` (`user_id`, `user_type`, `password`, `first_name`, `last_name`, `email_id`, `role_in_platform`, `is_active`, `created`, `last_login`, `organization_id`, `last_update`, `timezone`, `channel`, `group`, `device_token`) VALUES
+(2, 'tablet_user', '91bbc32e8590ecc8765d88330bea92b6', 'ankita', 'goswami', 'ankita.goswami@example.com', 'tablet_user', 1, '2014-10-11 13:33:35', '2014-10-21 13:33:39', 1, '2014-12-01 14:15:16', 'America/Cambridge_Bay', '2,3', '3,1', '987654322'),
+(6, 'administrator', '527bd5b5d689e2c32ae974c6229ff785', 'john', 'mat', 'john@mat.co.in', 'administrator', 1, '2014-11-05 17:44:55', '2014-10-21 13:33:03', 5, '2014-12-05 17:44:55', 'America/Cambridge_Bay', '2', '3', '987654326'),
+(8, 'tablet_user', 'd41d8cd98f00b204e9800998ecf8427e', 'tom', 'jerry', 'tomnjerry@me.co.in', 'tablet_user', 1, '2014-11-10 18:12:37', '2014-10-21 13:33:03', 5, '2014-12-10 18:12:38', 'Africa/Algiers', '1', '1,2', ''),
+(9, 'administrator', 'ae3e83e2fab3a7d8683d8eefabd1e74d', 'boo', 'reboot', 'boo@isol.co.in', 'administrator', 1, '2014-11-12 12:37:54', '2014-10-21 13:33:03', 5, '2014-12-12 12:37:54', 'America/Menominee', '1', '1', ''),
+(10, 'tablet_user', '6cee2033f74468edae63e3142e3ed403', 'trouble', 'hooters', 'trouble@hooters.com', 'tablet_user', 1, '2014-11-12 12:46:48', '2014-10-21 13:33:03', 5, '2014-12-12 12:46:49', 'Africa/Bamako', '3', '2', ''),
+(13, 'tablet_user', '21232f297a57a5a743894a0e4a801fc3', 'final', 'edit', 'qwert@gmail.com', 'tablet_user', 1, '2014-11-13 13:25:58', '2014-10-21 13:33:03', 5, '2014-12-13 11:46:05', 'Africa/Algiers', '1,3', '3,4', ''),
+(14, 'administrator', '46168e9c4884473e539feb6e20fbe54e', 'Anil', 'Kumar', 'astha.goswami@isol.co.in', 'administrator', 0, '2014-11-17 12:50:32', '2014-10-21 13:33:03', 5, '2014-12-17 12:45:10', 'Asia/Kolkata', '1,2,3', '1,2,3,4,5,7', '');
+
+
+//**********backup filepicker script
+ var base_url = "<?php echo base_url() ?>";
+                    //*******update condition************
+//                    var json = $.parseJSON(uploadedfile); console.log(json); return false; //console.log(json);
+//                    //*********add dynamic row**************
+//                    if(json.action != 'updated'){
+//                        $('.content_list li:first').clone().appendTo('.content_list');
+//                    }
+//                    $('.content_list .list-item:last').addClass('content_'+json.content_id+" "+json.type).removeClass('hide');//.css('display','inline-block');
+//                    $('.content_list .list-item:last').find('.content_json').val(uploadedfile);
+//                    $('.content_list .list-item:last').find('.del_content').val(json.content_id);
+//                    $.each(json, function(key, value){ 
+//                            if(key == 'tag_names'){
+//                                $.each(value,function(index,tag){
+//                                   $('.content_list .list-item:last').find(function(){
+//                                       $('.tag > .'+index).text(tag);
+//                                   }) 
+//                                })
+//                            }
+//                        //**********dynamic user values*******************
+//                        $('.content_list .list-item:last').find(function(){
+//                            $('.content_list .list-item:last').find('#img').attr('src',base_url+'assets/upload'+json.filename);
+//                            $('.content_list .list-item:last').find('.'+key).text(value); //for dynamic user box data
+//                        })
+//                    })

@@ -1,0 +1,195 @@
+.contents-name{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contents-date{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contents-user{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content-controls{
+    -webkit-box-shadow: 0 3px 25px -4px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 3px 25px -4px rgba(0, 0, 0, 0.9) !important;
+    display: inline-block;
+}
+.close_form, close_form:hover{
+    color: #777777;
+}
+
+.close_form:hover{
+    color: #777777;
+}
+.color-box{
+    border-color: black;
+    background:none repeat scroll 0 0 #f4da00;
+    height: 10px;
+    width: 30px;
+}
+/*.send-to > input[type="radio"] + label{
+    display:none;
+}
+.send-to input[type="radio"]:checked + label{
+    display:inline-block;
+}*/
+/******contact status colors******/
+.color1 {
+    background: none repeat scroll 0 0 #f4da00;
+}
+.color2{
+    background: none repeat scroll 0 0 #e39600;
+}
+.color3{
+    background: none repeat scroll 0 0 #7e562e;
+}
+.color4{
+    background: none repeat scroll 0 0 #512800;
+}
+.color5{
+    background: none repeat scroll 0 0 #ff8888;
+}
+.color6{
+    background: none repeat scroll 0 0 #cc0000;
+}
+.color7{
+    background: none repeat scroll 0 0 #828282;
+}
+.color8{
+    background: none repeat scroll 0 0 #444444;
+}
+.color9{
+    background: none repeat scroll 0 0 #6dd839;
+}
+.color10{
+    background: none repeat scroll 0 0 #257200;
+}
+.color11{
+    background: none repeat scroll 0 0 #ffa1ff;
+}
+.color12{
+    background: none repeat scroll 0 0 #6b0097;
+}
+.color13{
+    background: none repeat scroll 0 0 #8888ff;
+}
+.color14{
+    background: none repeat scroll 0 0 #0328d6;
+}
+.color15{
+    background: none repeat scroll 0 0 #48c9cb;
+}
+.color16{
+    background: none repeat scroll 0 0 #0086ad;
+}
+/*******user list******/
+.info_cursor{
+    cursor: pointer;
+}
+.img_size {
+    width: 100px;
+    height: 100px;
+    margin:auto;
+    font-size: 70px;
+    text-align: center;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;  
+}
+.user_text{
+    font-size: 20px;
+    text-align: center;
+}
+.user_color{
+    color:#eee;
+}
+.owner_color{
+    color:#727274;
+}
+
+.admin_color{
+    color:#20b889;
+}
+.box_pad {
+    padding: 10px;
+}
+.same_line {
+    float: left;
+    width: 17em;
+}
+/*.ellipsis_div { 
+    white-space: nowrap; 
+    width: 98%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}*/
+.ellipsis_div { 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.user_buttons{
+    padding-bottom: 8px;
+    padding-top: 7px;
+    padding-right: 0px;
+    margin:auto;
+    text-align: center;
+
+}    
+
+/*******user list******/
+/*******hidden group channel example**********/
+.reveal-if-active {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+/*input[type="checkbox"]:checked ~ label,*/
+input[type="radio"]:checked ~ label{
+    opacity: 1;
+    max-height: 100px;
+    overflow: visible;
+    padding: 10px 20px;
+    transform: scale(1);
+}
+input[type="radio"]:checked ~ .reveal-if-active,
+input[type="checkbox"]:checked ~ .reveal-if-active {
+    opacity: 1;
+    max-height: 100px; /* little bit of a magic number :( */
+    overflow: visible;
+}
+
+.badge-playground{
+    background-color: #1b9d75;
+    background-image: none !important;
+}
+
+.wrapword{
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-all;
+    white-space: normal;
+
+}
+.slideleft {
+     -webkit-transition:  0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    
+}
+.hover-effect:hover .slideleft {
+    -webkit-transform: translate(-7em,0);
+    -moz-transform: translate(-7em,0);
+    -o-transform: translate(-7em,0);
+    -ms-transform: translate(-7em,0);
+    transform: translate(-7em,0);
+}

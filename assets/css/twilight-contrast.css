@@ -1,0 +1,65 @@
+
+pre {
+    background: none repeat scroll 0 0 #141414;
+    color: #f8f8f8;
+    font-size: 14px;
+    margin: 0 0 20px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+pre, code {
+    font-family: 'Monaco',courier,monospace;
+}
+pre .comment {
+    color: #5f5a60;
+}
+pre .constant.numeric {
+    color: #184ce2;
+}
+pre .constant {
+    color: #5c88b4;
+}
+pre .constant.symbol, pre .constant.language {
+    color: #d87d50;
+}
+pre .storage {
+    color: #f9ee98;
+}
+pre .string {
+    color: #00b22f;
+}
+pre .string.regexp {
+    color: #e9971f;
+}
+pre .keyword, pre .selector, pre .storage {
+    color: #e96900;
+}
+pre .inherited-class {
+    color: #9b5c2e;
+}
+pre .entity {
+    color: #00b22f;
+}
+pre .support {
+    color: #2973b7;
+}
+pre .support.magic {
+    color: #dabf6b;
+}
+pre .support.attribute {
+    color: #e96900;
+}
+pre .variable {
+    color: #5771a6;
+}
+pre .function, pre .entity.class {
+    color: #0092db;
+}
+pre .support.class-name, pre .support.type {
+    color: #ac60ac;
+}
+pre .support.tag-name {
+}
+pre .support.css-property {
+    color: #2973b7;
+}
